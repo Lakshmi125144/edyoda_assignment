@@ -5,7 +5,7 @@ def reverse_array(array):
     end = len(array) - 1 
     while start < end: 
         array[start], array[end] = array[end], array[start] start += 1 end -= 1 
-        # Example usage: 
-    array = [1, 2, 3, 4, 5] 
-    reverse_array(array) 
-    print(array)
+# Example usage: 
+array = [1, 2, 3, 4, 5]  
+reverse_array(array) 
+print(array)
